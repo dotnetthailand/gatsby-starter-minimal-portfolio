@@ -38,7 +38,8 @@
   - New `PUBLIC_REPO_ACCESS_TOKEN` key and set a value to a GitHub personal access token with the "public_repo" scope.
 - Push this project source to your GitHub repository with the following command.
   ```sh
-  git remote set-url origin git@github.com:your-github-username/your-github-username.github.io.git
+  git branch -m main
+  git remote add origin git@github.com:your-github-username/your-github-username.github.io.git
   git push -u origin main
   ```
 - Wait until GitHub Actions deployment has finished.
