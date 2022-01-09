@@ -10,24 +10,27 @@
 ## Create and run a new project
 - Create a new project from gatsby-starter-minimal-portfolio.
   ```sh
-  gatsby new your-github-username.github.io dotnetthailand/gatsby-starter-minimal-portfolio
+  gatsby new {your-github-username}.github.io dotnetthailand/gatsby-starter-minimal-portfolio
   ```
+- Wait for a while until cline has finished.
 - CD to your project folder.
   ```sh
-  cd your-github-username.github.io
+  cd {your-github-username}.github.io
   ```
 - Run your project.
   ```sh
-  cd your-github-username.github.io
+  yarn start
   ```
 - Open a browser and navigate to http://localhost:8000.
 - You will find your minimal-portfolio in a browser.
+- Optionally, run `code .` to open a project with VS Code.
 
 ## Customize your portfolio
 - Edit content of `SiteConfig.js` to your profile information.
 - Add a new Markdown file in `content` folder and put your activity's details into it.
 - Edit `data/projects.yml` to your interesting projects.
 - Edit content of `src/pages/contact.tsx` to your contact information (We use Gatsby theme shadowing).
+- Kill a process with yarn `ctrl+c` and start it over again with `yarn start`.
 
 ## Deploy to GitHub Pages
 - Create an empty repository with a name as `your-github-username.github.io`.
